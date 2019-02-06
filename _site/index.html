@@ -3,15 +3,35 @@
   <head>
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css">
 </head>
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2016/11/12/title-of-tenth-post.html">The title of the Tenth post</a></li>
+    
+      <li><a href="/2016/11/11/title-of-nineth-post.html">The title of the Ninethe post</a></li>
+    
+      <li><a href="/2016/11/10/title-of-eighth-post.html">The title of the Eighth post</a></li>
+    
+      <li><a href="/2016/11/09/title-of-seventh-post.html">The title of the Seventh post</a></li>
+    
+      <li><a href="/2016/11/08/title-of-sixth-post.html">The title of the Sixth post</a></li>
+    
+  </ul>
+</li>
+<!-- <li><a href="/blog">Blog</a></li> -->
 <li><a href="/2016/11/12/title-of-tenth-post.html">Newest Post</a></li>
     </ul>
   </nav>
@@ -179,7 +199,24 @@ the spleen and regulating the circulation.</p>
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2016/11/12/title-of-tenth-post.html">The title of the Tenth post</a></li>
+    
+      <li><a href="/2016/11/11/title-of-nineth-post.html">The title of the Ninethe post</a></li>
+    
+      <li><a href="/2016/11/10/title-of-eighth-post.html">The title of the Eighth post</a></li>
+    
+      <li><a href="/2016/11/09/title-of-seventh-post.html">The title of the Seventh post</a></li>
+    
+      <li><a href="/2016/11/08/title-of-sixth-post.html">The title of the Sixth post</a></li>
+    
+  </ul>
+</li>
+<!-- <li><a href="/blog">Blog</a></li> -->
 <li><a href="/2016/11/12/title-of-tenth-post.html">Newest Post</a></li>
     </ul>
   </nav>
