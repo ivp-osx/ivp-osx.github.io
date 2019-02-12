@@ -1,7 +1,8 @@
 ---
-layout: post
 title: The title of the Ninethe post
-postHero: /images/shark.jpg
+date: 2016-11-11 00:00:00 Z
+layout: post
+postHero: "/images/shark.jpg"
 author: Me, Myself, and I
 authorTwitter: http://twitter.com/mhartl
 gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
